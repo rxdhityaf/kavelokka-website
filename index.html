@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavelokka Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kavelokka Coffee</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#space">Space</a>
+            <a href="#visit">Visit</a>
+        </nav>
+    </header>
+
+<section class="hero">
+
+<video autoplay muted loop playsinline preload="none" class="hero-video">
+<source src="assets/coffee.mp4" type="video/mp4">
+</video>
+
+<div class="hero-content">
+
+<img src="assets/logo.png" class="hero-logo">
+
+<h2>24 Hour Coffee Space in Solo</h2>
+
+<p>Work. Chill. Hangout anytime.</p>
+
+<a class="btn" href="https://maps.app.goo.gl/ihAFGeDSQhbypjVm7">
+Visit Kavelokka
+</a>
+
+</div>
+
+<div class="scroll-indicator"></div>
+
+</section>
+
+
+
+    <section id="space">
+        <h2>Cafe Atmosphere</h2>
+
+        <div class="gallery">
+            <img src="assets/cafe1.jpg" loading="lazy">
+            <img src="assets/cafe2.jpg" loading="lazy">
+            <img src="assets/menu.jpg" loading="lazy">
+        </div>
+    </section>
+
+
+    <section id="menu">
+
+        <h2>Menu Highlights</h2>
+
+        <div class="menu-highlight">
+
+            <div class="card">
+                <h3>Kopi Susu Lokka</h3>
+                <p>Signature creamy milk coffee with bold espresso.</p>
+                <span>18k</span>
+            </div>
+
+            <div class="card">
+                <h3>Nasi Ayam Mentega</h3>
+                <p>Rice bowl with buttery chicken and savory sauce.</p>
+                <span>25k</span>
+            </div>
+
+            <div class="card">
+                <h3>Lokka Platter</h3>
+                <p>Snack combo perfect for sharing with friends.</p>
+                <span>20k</span>
+            </div>
+
+            <div class="card">
+                <h3>Caramel Frappe</h3>
+                <p>Sweet blended coffee with caramel flavor.</p>
+                <span>28k</span>
+            </div>
+
+        </div>
+
+        <button id="showMenuBtn">Show Full Menu</button>
+
+        <div id="fullMenu" class="hidden">
+
+            <h3>RICE BOWL</h3>
+            <ul>
+                <li>Nasi Ayam (Mentega / Asam Manis / Telur Asin / Thailand / Lada Hitam) – 25k</li>
+                <li>Nasi Udang (Mentega / Asam Manis / Telur Asin / Thailand / Lada Hitam) – 28k</li>
+                <li>Nasi Sapi Lada Hitam – 32k</li>
+                <li>Nasi Empal Lokka – 32k</li>
+                <li>Nasi Ayam Pandan – 25k</li>
+                <li>Nasi Ayam Srundeng – 25k</li>
+            </ul>
+
+            <h3>SNACK</h3>
+            <ul>
+                <li>French Fries – 18k</li>
+                <li>Jamur Crispy – 18k</li>
+                <li>Tahu Cabe Garam – 18k</li>
+                <li>Pisang Goreng Lokka – 18k</li>
+                <li>Lokka Platter – 20k</li>
+            </ul>
+
+            <h3>ALA CARTE</h3>
+            <ul>
+                <li>Nasi Goreng Lokka – 22k</li>
+                <li>Nasi Goreng Oriental – 25k</li>
+                <li>Bakmi Goreng Seafood – 30k</li>
+                <li>Bakmi Goreng Ayam – 25k</li>
+                <li>Kwetiauw Goreng Seafood – 30k</li>
+                <li>Kwetiauw Goreng Ayam – 25k</li>
+                <li>Capcay Seafood – 30k</li>
+                <li>Capcay Ayam – 25k</li>
+                <li>Sup Tomyam Seafood – 30k</li>
+                <li>Sup Tomyam Ayam – 25k</li>
+                <li>Sup Sapo Tahu Seafood – 30k</li>
+                <li>Sup Sapo Tahu Ayam – 25k</li>
+            </ul>
+
+            <h3>KOPI SUSU</h3>
+            <ul>
+                <li>Kopi Susu Lokka – 18k</li>
+                <li>Kopi Susu No Sugar – 18k</li>
+                <li>Kopi Susu Caramel – 23k</li>
+                <li>Kopi Susu Butterscotch – 23k</li>
+                <li>Kopi Susu Crème Brulee – 23k</li>
+                <li>Kopi Susu Nabati – 25k</li>
+            </ul>
+
+            <h3>BASIC COFFEE</h3>
+            <ul>
+                <li>Espresso – 15k</li>
+                <li>Americano – 15k</li>
+                <li>Megaricano – 18k</li>
+                <li>Cappuccino – 23k</li>
+                <li>Café Latte – 23k</li>
+                <li>Magic – 25k</li>
+            </ul>
+
+            <h3>NON COFFEE</h3>
+            <ul>
+                <li>Hot Chocolate – 25k</li>
+                <li>Hot Matcha – 25k</li>
+                <li>Java Tea – 12k</li>
+                <li>Iced Lychee Tea – 15k</li>
+                <li>Teasane – 23k</li>
+            </ul>
+
+            <h3>MOCKTAIL</h3>
+            <ul>
+                <li>Matcha Yuzu – 25k</li>
+                <li>Smile of Summer – 25k</li>
+                <li>Lokka Roma – 25k</li>
+            </ul>
+
+            <h3>JUICE</h3>
+            <ul>
+                <li>Dragon Punch – 25k</li>
+                <li>Light of Forest – 25k</li>
+                <li>Yellow Sunrise – 25k</li>
+            </ul>
+
+            <h3>FRAPPE</h3>
+            <ul>
+                <li>Caramel Frappe – 28k</li>
+                <li>Butterscotch Frappe – 28k</li>
+                <li>Crème Brulee Frappe – 28k</li>
+                <li>Mocca Frappe – 28k</li>
+            </ul>
+
+            <h3>FRAPPE NON COFFEE</h3>
+            <ul>
+                <li>Choco Frappe – 28k</li>
+                <li>Matcha Frappe – 28k</li>
+                <li>Red Velvet Frappe – 28k</li>
+                <li>Oreo Frappe – 28k</li>
+                <li>Coconut Frappe – 28k</li>
+                <li>Strawberry Milk Frappe – 28k</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <script>
+        const btn = document.getElementById("showMenuBtn");
+        const menu = document.getElementById("fullMenu");
+
+        btn.onclick = () => {
+            menu.classList.toggle("hidden");
+
+            btn.textContent =
+                menu.classList.contains("hidden")
+                    ? "Show Full Menu"
+                    : "Hide Menu";
+        };
+    </script>
+
+    <section id="reviews">
+
+        <h2>What People Say</h2>
+
+        <div class="review-container">
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>“Tempat nyaman buat nugas sampai malam. Kopinya juga konsisten enak.”</p>
+                <span>- Google Review</span>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>“24 jam dan selalu ramai. Cocok buat nongkrong atau kerja.”</p>
+                <span>- Google Review</span>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★☆</div>
+                <p>“Menu makanan banyak pilihan. Rice bowl-nya recommended.”</p>
+                <span>- Google Review</span>
+            </div>
+
+        </div>
+
+        <div class="map-section">
+
+            <h3>Rating on Google</h3>
+
+            <p class="rating">
+                ⭐ 4.4 / 5 from 500+ reviews
+            </p>
+
+            <iframe src="https://www.google.com/maps?q=Kavelokka+Coffee+Solo&output=embed" width="100%" height="350"
+                style="border:0;" loading="lazy">
+            </iframe>
+
+        </div>
+
+    </section>
+
+     <section id="visit">
+        <h2>Visit Us</h2>
+
+        <p>Jl. Slamet Riyadi No.151, Surakarta</p>
+
+        <a class="btn" href="https://maps.app.goo.gl/ihAFGeDSQhbypjVm7" target="_blank">
+            Open in Google Maps
+        </a>
+    </section>
+    <section id="social">
+
+<h2>Stay Connected</h2>
+
+<div class="social-container">
+
+<a href="https://www.instagram.com/kavelokka/" class="social-card">
+<i class="fa-brands fa-instagram"></i> Instagram
+</a>
+
+<a href="https://www.tiktok.com/@kavelokka" class="social-card">
+<i class="fa-brands fa-tiktok"></i> TikTok
+</a>
+
+</div>
+
+</section>
+    <footer>
+        <p>© 2026 Kavelokka Coffee</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
